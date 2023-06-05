@@ -49,3 +49,30 @@ body {
 .button i{
     padding-right: 1rem;
 }
+
+@media only screen and (max-width: 360px){
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    .container{
+        padding: 0.8rem;
+        width: 100%;
+        height: auto;
+        font-size: 1rem;
+    }
+    .container h2{
+        font-size: 1.7rem;
+        line-height: 2rem;
+    }
+    .para-color{
+        line-height: 1.5rem;
+    }
+    .button{
+        width: 45%;
+        padding: 1rem;
+    }
+    .button i{
+        padding-right: 5px;
+    }
+}
