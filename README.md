@@ -5,3 +5,7 @@
 >  In this exercise I will be building two full integrations.
 As is often the case with CSS, this is an exercise in precision and accuracy.
 
+## Languages used:
+
+- HTML5
+- CSS3

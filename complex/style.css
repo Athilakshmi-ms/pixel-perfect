@@ -1,0 +1,51 @@
+/*font color used: hsl(0deg 0% 13.33%);
+background color used: hsl(33.33deg 27.27% 93.53%)*/
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: left;
+    margin: 0 10%;
+    background-color: hsl(33.33deg 27.27% 93.53%);
+}
+
+.content-left {
+    width: 40%;
+}
+.content-left img {
+    padding: 0.5rem;
+    padding-right: 0;
+    width: 400px;
+    height: 570px;
+}
+
+.content-right {
+    color: hsl(0deg 0% 13.33%);;
+    margin: 0.5rem;
+    background-color: white;
+    width: 60%;
+}
+.right-text h1{
+    font-family: 'Noto Serif Display', serif;
+    font-weight: 2rem;
+    font-size: 2.8rem;
+}
+
+.right-text {
+    padding: 15% 23%;
+    font-size: 0.8rem;
+}
+.right-text p{
+    padding-bottom: 10px;
+    line-height: 1.2rem;
+}
+.right-text i{
+    font-size: 1rem;
+    padding: 0.5rem;
+}
