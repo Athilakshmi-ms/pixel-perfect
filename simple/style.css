@@ -1,0 +1,44 @@
+/*  orange color for review box: hsl(20.39deg 100% 59.61%);
+    violet shade for paragraph starting: hsl(320deg 48% 39.22%);
+    gray shade for paragraph texts: hsl(0deg 0% 40%);
+*/
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: left;
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 60%;
+    height: auto;
+    padding: 1rem;
+    background-color: white;
+}
+
+.container h2 {
+    font-size: 3rem;
+    margin: auto;
+}
+
+.para-color {
+    color: hsl(0deg 0% 40%);
+    line-height: 2rem;
+}
+
+.headerLeft-color {
+    color: hsl(320deg 48% 39.22%);
+}
+
+.button {
+    background-color: hsl(20.39deg 100% 59.61%);
+    padding: 1.5rem 1rem;
+    text-align: center;
+    color: white;
+    width: 25%;
+    border-radius: 0.5rem;
+}
