@@ -4,4 +4,20 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: black;
+}
+.container {
+    line-height: 1.5rem;
+    font-size: 1rem;
+    margin: 0 40%;
+    padding: 0.5rem 1rem;
+    background-color: white;
+    color: rgb(3 76 81);
+}
+.container div, p{
+    padding: 0.6rem 0;
+}
+.container i{
+    font-size: 1.4rem;
+    padding-right: 10px;
 }
