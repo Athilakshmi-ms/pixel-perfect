@@ -2,21 +2,22 @@
     violet shade for paragraph starting: hsl(320deg 48% 39.22%);
     gray shade for paragraph texts: hsl(0deg 0% 40%);
 */
-html {
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     text-align: left;
     background-color: black;
+    font-size: 1.2rem;
 }
 
 .container {
+    margin: 0 auto;
     display: flex;
-    justify-content: center;
     flex-direction: column;
-    width: 60%;
+    width: 50%;
     height: auto;
-    padding: 1rem;
+    padding: 0rem 1rem;
     background-color: white;
 }
 
@@ -26,6 +27,7 @@ html {
 }
 
 .para-color {
+    font-family: 'Cabin', sans-serif;
     color: hsl(0deg 0% 40%);
     line-height: 2rem;
 }
@@ -39,6 +41,9 @@ html {
     padding: 1.5rem 1rem;
     text-align: center;
     color: white;
-    width: 25%;
+    width: 35%;
     border-radius: 0.5rem;
+}
+.button i{
+    padding-right: 1rem;
 }
